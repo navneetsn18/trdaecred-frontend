@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+.App {
+  text-align: center;
+}
+
+.body{
+  margin: 0%;
+  padding: 0%;
+  padding-top: 2%;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
+.form{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p{
+  left: -15%;
+  color: #29b6f6;
+  font-family: sans-serif ;
+  font-size: 1.2em;
+}
+
+.dataTable{
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+
+h1,td{
+  color: black;
+  text-align: center;
+  font-family: 'Itim', cursive;
+  font-size: 2em;
+}
+
+.td1{
+  color: #303f9f;
+}
